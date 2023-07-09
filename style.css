@@ -6,13 +6,9 @@
 }
 
 header {
-  width: 1600px;
-  height: 837px;
   background-color: #fff8f3;
-  background-image: url(./images/developer.png);
+  background-image: url("./images/developer.png");
   background-repeat: no-repeat;
-  background-position: left;
-  overflow: hidden;
 }
 
 nav {
@@ -59,12 +55,10 @@ nav a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url(./images/header_bg.png);
+  background-image: url("./images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   margin-left: 150px;
-  /* height: 100vh;
- */
 }
 
 .banner-pic {
@@ -91,6 +85,14 @@ nav a {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
+}
+
+.banner-left {
+  max-width: 600px;
+}
+
+.banner-left .banner-pic {
+  max-width: 400px;
 }
 
 main {
@@ -134,13 +136,20 @@ main {
 }
 
 .skill-description {
-  width: 909px;
   color: #757575;
+  margin-top: 10px;
   text-align: center;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
 }
+
+.skill-section {
+  padding: 70px 100px;
+  margin: 20px 100px;
+  border-radius: 10px;
+}
+
 .skill-box {
   margin: 50px;
   display: flex;
@@ -203,10 +212,10 @@ hr {
   margin: 30px auto;
 }
 
-footer{
+footer {
   width: 1600px;
   height: 780px;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
 }
 
 .footer-title {
@@ -215,7 +224,7 @@ footer{
   font-weight: 700;
 }
 
-.footer-description{
+.footer-description {
   width: 562px;
   color: #474747;
   font-size: 16px;
@@ -224,6 +233,33 @@ footer{
   margin: 30px 0;
 }
 
-footer img{
+footer img {
   margin: 0 10px;
+}
+
+label{
+  display: block;
+}
+
+.footer-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input{
+  width: 350px;
+  height: 40px;
+  border: none;
+  margin: 10px 0;
+  text-indent: 25px;
+}
+
+textarea{
+  border: none;
+  text-indent: 25px;
+}
+
+.submit{
+  margin-top: 15px;
 }
