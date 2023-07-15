@@ -182,6 +182,12 @@ main {
   line-height: 28px;
 }
 
+.skill-heading {
+  color: #474747;
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .edu-details {
   margin: 20px 0;
 }
@@ -197,7 +203,6 @@ hr {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
-  line-height: 28px;
 }
 
 .experience-education {
@@ -213,8 +218,8 @@ hr {
 }
 
 footer {
-  width: 1600px;
-  height: 780px;
+  padding: 0;
+  height: 650px;
   background-color: #fff8f3;
 }
 
@@ -234,32 +239,129 @@ footer {
 }
 
 footer img {
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
-label{
+label {
   display: block;
 }
 
-.footer-section{
+.footer-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-input{
-  width: 350px;
-  height: 40px;
+input {
+  width: 450px;
+  height: 60px;
   border: none;
   margin: 10px 0;
   text-indent: 25px;
 }
 
-textarea{
+textarea {
   border: none;
   text-indent: 25px;
+  margin-top: 10px;
 }
 
-.submit{
+.form-container {
+  margin-right: 300px;
+  margin-top: 150px;
+}
+
+form > .submit {
   margin-top: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .about-section {
+    padding: 20px;
+    margin: 30px 20px;
+  }
+  .section-profile {
+    flex-direction: column;
+    margin: 30px;
+  }
+  .skill-box {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  .skill{
+    padding: 20px;
+  }
+
+  .skill-section {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .experience-education {
+   flex-direction: column;
+  }
+
+  .education{
+    margin: 20px 0;
+  }
+
+  .edu-details{
+    margin: 20px;
+  }
+
+  .edu-description{
+    width: 100%;
+  }
+
+  .skill-heading{
+    margin-left: 20px;
+  }
+
+  .footer-section{
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 10px;
+    padding: 20px 0;
+  }
+
+  .footer-description{
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .footer-column{
+    width: 100%;
+  }
+
+  .form-container{
+    margin: 20px auto;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+
+  .banner-section{
+    flex-direction: column;
+    margin: 10px 100px;
+    background-image: none;
+  }
+
+  .banner-description{
+    width: 100%;
+  }
+
+  .banner-pic{
+    height: 400px;
+    width: 350px;
+    text-align: center;
+  }
+
+  .btn-primary {
+    font-size: 18px;
+    border-radius: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
 }
